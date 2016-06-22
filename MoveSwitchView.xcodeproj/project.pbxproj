@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64A026411D1A36600073884C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A026401D1A36600073884C /* main.m */; };
+		64A026441D1A36600073884C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A026431D1A36600073884C /* AppDelegate.m */; };
+		64A026471D1A36600073884C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A026461D1A36600073884C /* ViewController.m */; };
+		64A0264A1D1A36600073884C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A026481D1A36600073884C /* Main.storyboard */; };
+		64A0264C1D1A36600073884C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64A0264B1D1A36600073884C /* Assets.xcassets */; };
+		64A0264F1D1A36600073884C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A0264D1D1A36600073884C /* LaunchScreen.storyboard */; };
+		64A0265A1D1A36600073884C /* MoveSwitchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A026591D1A36600073884C /* MoveSwitchViewTests.m */; };
+		64A026651D1A36600073884C /* MoveSwitchViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A026641D1A36600073884C /* MoveSwitchViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64A026561D1A36600073884C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64A026341D1A36600073884C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A0263B1D1A36600073884C;
+			remoteInfo = MoveSwitchView;
+		};
+		64A026611D1A36600073884C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64A026341D1A36600073884C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64A0263B1D1A36600073884C;
+			remoteInfo = MoveSwitchView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64A0263C1D1A36600073884C /* MoveSwitchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveSwitchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A026401D1A36600073884C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64A026421D1A36600073884C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64A026431D1A36600073884C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64A026451D1A36600073884C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		64A026461D1A36600073884C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		64A026491D1A36600073884C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64A0264B1D1A36600073884C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64A0264E1D1A36600073884C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64A026501D1A36600073884C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A026551D1A36600073884C /* MoveSwitchViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveSwitchViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A026591D1A36600073884C /* MoveSwitchViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveSwitchViewTests.m; sourceTree = "<group>"; };
+		64A0265B1D1A36600073884C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A026601D1A36600073884C /* MoveSwitchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveSwitchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A026641D1A36600073884C /* MoveSwitchViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveSwitchViewUITests.m; sourceTree = "<group>"; };
+		64A026661D1A36600073884C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64A026391D1A36600073884C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A026521D1A36600073884C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0265D1D1A36600073884C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64A026331D1A36600073884C = {
+			isa = PBXGroup;
+			children = (
+				64A0263E1D1A36600073884C /* MoveSwitchView */,
+				64A026581D1A36600073884C /* MoveSwitchViewTests */,
+				64A026631D1A36600073884C /* MoveSwitchViewUITests */,
+				64A0263D1D1A36600073884C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64A0263D1D1A36600073884C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64A0263C1D1A36600073884C /* MoveSwitchView.app */,
+				64A026551D1A36600073884C /* MoveSwitchViewTests.xctest */,
+				64A026601D1A36600073884C /* MoveSwitchViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64A0263E1D1A36600073884C /* MoveSwitchView */ = {
+			isa = PBXGroup;
+			children = (
+				64A026421D1A36600073884C /* AppDelegate.h */,
+				64A026431D1A36600073884C /* AppDelegate.m */,
+				64A026451D1A36600073884C /* ViewController.h */,
+				64A026461D1A36600073884C /* ViewController.m */,
+				64A026481D1A36600073884C /* Main.storyboard */,
+				64A0264B1D1A36600073884C /* Assets.xcassets */,
+				64A0264D1D1A36600073884C /* LaunchScreen.storyboard */,
+				64A026501D1A36600073884C /* Info.plist */,
+				64A0263F1D1A36600073884C /* Supporting Files */,
+			);
+			path = MoveSwitchView;
+			sourceTree = "<group>";
+		};
+		64A0263F1D1A36600073884C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64A026401D1A36600073884C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64A026581D1A36600073884C /* MoveSwitchViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				64A026591D1A36600073884C /* MoveSwitchViewTests.m */,
+				64A0265B1D1A36600073884C /* Info.plist */,
+			);
+			path = MoveSwitchViewTests;
+			sourceTree = "<group>";
+		};
+		64A026631D1A36600073884C /* MoveSwitchViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64A026641D1A36600073884C /* MoveSwitchViewUITests.m */,
+				64A026661D1A36600073884C /* Info.plist */,
+			);
+			path = MoveSwitchViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64A0263B1D1A36600073884C /* MoveSwitchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A026691D1A36600073884C /* Build configuration list for PBXNativeTarget "MoveSwitchView" */;
+			buildPhases = (
+				64A026381D1A36600073884C /* Sources */,
+				64A026391D1A36600073884C /* Frameworks */,
+				64A0263A1D1A36600073884C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoveSwitchView;
+			productName = MoveSwitchView;
+			productReference = 64A0263C1D1A36600073884C /* MoveSwitchView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64A026541D1A36600073884C /* MoveSwitchViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A0266C1D1A36600073884C /* Build configuration list for PBXNativeTarget "MoveSwitchViewTests" */;
+			buildPhases = (
+				64A026511D1A36600073884C /* Sources */,
+				64A026521D1A36600073884C /* Frameworks */,
+				64A026531D1A36600073884C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64A026571D1A36600073884C /* PBXTargetDependency */,
+			);
+			name = MoveSwitchViewTests;
+			productName = MoveSwitchViewTests;
+			productReference = 64A026551D1A36600073884C /* MoveSwitchViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64A0265F1D1A36600073884C /* MoveSwitchViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A0266F1D1A36600073884C /* Build configuration list for PBXNativeTarget "MoveSwitchViewUITests" */;
+			buildPhases = (
+				64A0265C1D1A36600073884C /* Sources */,
+				64A0265D1D1A36600073884C /* Frameworks */,
+				64A0265E1D1A36600073884C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64A026621D1A36600073884C /* PBXTargetDependency */,
+			);
+			name = MoveSwitchViewUITests;
+			productName = MoveSwitchViewUITests;
+			productReference = 64A026601D1A36600073884C /* MoveSwitchViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64A026341D1A36600073884C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = netposa;
+				TargetAttributes = {
+					64A0263B1D1A36600073884C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = U2QTD55986;
+					};
+					64A026541D1A36600073884C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = U2QTD55986;
+						TestTargetID = 64A0263B1D1A36600073884C;
+					};
+					64A0265F1D1A36600073884C = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = U2QTD55986;
+						TestTargetID = 64A0263B1D1A36600073884C;
+					};
+				};
+			};
+			buildConfigurationList = 64A026371D1A36600073884C /* Build configuration list for PBXProject "MoveSwitchView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64A026331D1A36600073884C;
+			productRefGroup = 64A0263D1D1A36600073884C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64A0263B1D1A36600073884C /* MoveSwitchView */,
+				64A026541D1A36600073884C /* MoveSwitchViewTests */,
+				64A0265F1D1A36600073884C /* MoveSwitchViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64A0263A1D1A36600073884C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A0264F1D1A36600073884C /* LaunchScreen.storyboard in Resources */,
+				64A0264C1D1A36600073884C /* Assets.xcassets in Resources */,
+				64A0264A1D1A36600073884C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A026531D1A36600073884C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0265E1D1A36600073884C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64A026381D1A36600073884C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A026471D1A36600073884C /* ViewController.m in Sources */,
+				64A026441D1A36600073884C /* AppDelegate.m in Sources */,
+				64A026411D1A36600073884C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A026511D1A36600073884C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A0265A1D1A36600073884C /* MoveSwitchViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64A0265C1D1A36600073884C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A026651D1A36600073884C /* MoveSwitchViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64A026571D1A36600073884C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64A0263B1D1A36600073884C /* MoveSwitchView */;
+			targetProxy = 64A026561D1A36600073884C /* PBXContainerItemProxy */;
+		};
+		64A026621D1A36600073884C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64A0263B1D1A36600073884C /* MoveSwitchView */;
+			targetProxy = 64A026611D1A36600073884C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64A026481D1A36600073884C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A026491D1A36600073884C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64A0264D1D1A36600073884C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64A0264E1D1A36600073884C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64A026671D1A36600073884C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64A026681D1A36600073884C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64A0266A1D1A36600073884C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoveSwitchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.MoveSwitchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64A0266B1D1A36600073884C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MoveSwitchView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.MoveSwitchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		64A0266D1D1A36600073884C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoveSwitchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.MoveSwitchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveSwitchView.app/MoveSwitchView";
+			};
+			name = Debug;
+		};
+		64A0266E1D1A36600073884C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoveSwitchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.MoveSwitchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveSwitchView.app/MoveSwitchView";
+			};
+			name = Release;
+		};
+		64A026701D1A36600073884C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoveSwitchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.MoveSwitchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoveSwitchView;
+			};
+			name = Debug;
+		};
+		64A026711D1A36600073884C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoveSwitchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.MoveSwitchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MoveSwitchView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64A026371D1A36600073884C /* Build configuration list for PBXProject "MoveSwitchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A026671D1A36600073884C /* Debug */,
+				64A026681D1A36600073884C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A026691D1A36600073884C /* Build configuration list for PBXNativeTarget "MoveSwitchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A0266A1D1A36600073884C /* Debug */,
+				64A0266B1D1A36600073884C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64A0266C1D1A36600073884C /* Build configuration list for PBXNativeTarget "MoveSwitchViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A0266D1D1A36600073884C /* Debug */,
+				64A0266E1D1A36600073884C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		64A0266F1D1A36600073884C /* Build configuration list for PBXNativeTarget "MoveSwitchViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64A026701D1A36600073884C /* Debug */,
+				64A026711D1A36600073884C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64A026341D1A36600073884C /* Project object */;
+}
