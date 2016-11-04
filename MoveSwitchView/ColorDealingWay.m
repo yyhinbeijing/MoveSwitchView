@@ -3,7 +3,7 @@
 //  MGM
 //
 //  Created by 阳永辉 on 16/5/13.
-//  Copyright © 2016年 netposa. All rights reserved.
+//  Copyright © 2016年 阳永辉. All rights reserved.
 //
 
 #import "ColorDealingWay.h"
