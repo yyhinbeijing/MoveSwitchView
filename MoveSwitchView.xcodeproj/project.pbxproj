@@ -15,6 +15,12 @@
 		64A0264F1D1A36600073884C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A0264D1D1A36600073884C /* LaunchScreen.storyboard */; };
 		64A0265A1D1A36600073884C /* MoveSwitchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A026591D1A36600073884C /* MoveSwitchViewTests.m */; };
 		64A026651D1A36600073884C /* MoveSwitchViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64A026641D1A36600073884C /* MoveSwitchViewUITests.m */; };
+		64A026731D1A37530073884C /* mark.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A026721D1A37530073884C /* mark.png */; };
+		64A0267D1D1A39AE0073884C /* blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A0267A1D1A39AE0073884C /* blue@2x.png */; };
+		64A0267E1D1A39AE0073884C /* bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A0267B1D1A39AE0073884C /* bottom@2x.png */; };
+		64A0267F1D1A39AE0073884C /* yuan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64A0267C1D1A39AE0073884C /* yuan@2x.png */; };
+		64B3D3431D1A6EF100AF20FA /* UIView+UIViewCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B3D3421D1A6EF100AF20FA /* UIView+UIViewCategory.m */; };
+		64B3D3871D1AA94600AF20FA /* ColorDealingWay.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B3D3861D1AA94600AF20FA /* ColorDealingWay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,14 @@
 		64A026601D1A36600073884C /* MoveSwitchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveSwitchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A026641D1A36600073884C /* MoveSwitchViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoveSwitchViewUITests.m; sourceTree = "<group>"; };
 		64A026661D1A36600073884C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A026721D1A37530073884C /* mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mark.png; sourceTree = "<group>"; };
+		64A0267A1D1A39AE0073884C /* blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue@2x.png"; sourceTree = "<group>"; };
+		64A0267B1D1A39AE0073884C /* bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom@2x.png"; sourceTree = "<group>"; };
+		64A0267C1D1A39AE0073884C /* yuan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yuan@2x.png"; sourceTree = "<group>"; };
+		64B3D3411D1A6EF100AF20FA /* UIView+UIViewCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewCategory.h"; sourceTree = "<group>"; };
+		64B3D3421D1A6EF100AF20FA /* UIView+UIViewCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewCategory.m"; sourceTree = "<group>"; };
+		64B3D3851D1AA94600AF20FA /* ColorDealingWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorDealingWay.h; sourceTree = "<group>"; };
+		64B3D3861D1AA94600AF20FA /* ColorDealingWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorDealingWay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +115,14 @@
 		64A0263E1D1A36600073884C /* MoveSwitchView */ = {
 			isa = PBXGroup;
 			children = (
+				64B3D3851D1AA94600AF20FA /* ColorDealingWay.h */,
+				64B3D3861D1AA94600AF20FA /* ColorDealingWay.m */,
+				64B3D3411D1A6EF100AF20FA /* UIView+UIViewCategory.h */,
+				64B3D3421D1A6EF100AF20FA /* UIView+UIViewCategory.m */,
+				64A0267A1D1A39AE0073884C /* blue@2x.png */,
+				64A0267B1D1A39AE0073884C /* bottom@2x.png */,
+				64A0267C1D1A39AE0073884C /* yuan@2x.png */,
+				64A026721D1A37530073884C /* mark.png */,
 				64A026421D1A36600073884C /* AppDelegate.h */,
 				64A026431D1A36600073884C /* AppDelegate.m */,
 				64A026451D1A36600073884C /* ViewController.h */,
@@ -207,7 +229,7 @@
 				TargetAttributes = {
 					64A0263B1D1A36600073884C = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = U2QTD55986;
+						DevelopmentTeam = 6QAGB3F4J5;
 					};
 					64A026541D1A36600073884C = {
 						CreatedOnToolsVersion = 7.3;
@@ -247,7 +269,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				64A0264F1D1A36600073884C /* LaunchScreen.storyboard in Resources */,
+				64A0267F1D1A39AE0073884C /* yuan@2x.png in Resources */,
 				64A0264C1D1A36600073884C /* Assets.xcassets in Resources */,
+				64A026731D1A37530073884C /* mark.png in Resources */,
+				64A0267E1D1A39AE0073884C /* bottom@2x.png in Resources */,
+				64A0267D1D1A39AE0073884C /* blue@2x.png in Resources */,
 				64A0264A1D1A36600073884C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,8 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				64A026471D1A36600073884C /* ViewController.m in Sources */,
+				64B3D3431D1A6EF100AF20FA /* UIView+UIViewCategory.m in Sources */,
 				64A026441D1A36600073884C /* AppDelegate.m in Sources */,
 				64A026411D1A36600073884C /* main.m in Sources */,
+				64B3D3871D1AA94600AF20FA /* ColorDealingWay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,9 +446,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MoveSwitchView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.MoveSwitchView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wali.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -429,9 +459,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MoveSwitchView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.netposa.MoveSwitchView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wali.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -501,6 +533,7 @@
 				64A0266B1D1A36600073884C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64A0266C1D1A36600073884C /* Build configuration list for PBXNativeTarget "MoveSwitchViewTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +542,7 @@
 				64A0266E1D1A36600073884C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64A0266F1D1A36600073884C /* Build configuration list for PBXNativeTarget "MoveSwitchViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +551,7 @@
 				64A026711D1A36600073884C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
